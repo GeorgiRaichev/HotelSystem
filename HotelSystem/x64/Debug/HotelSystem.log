@@ -1,0 +1,77 @@
+﻿  Date.cpp
+  GuestManager.cpp
+  Apartment.cpp
+  ConferenceHall.cpp
+  DoubleRoom.cpp
+\Date.cpp(1,1): error C1083: Cannot open source file: 'Date.cpp': No such file or directory
+  (compiling source file '/Date.cpp')
+  
+\GuestManager.cpp(1,1): error C1083: Cannot open source file: 'GuestManager.cpp': No such file or directory
+  (compiling source file '/GuestManager.cpp')
+  
+\models\Apartment.cpp(1,1): error C1083: Cannot open source file: 'models\Apartment.cpp': No such file or directory
+  (compiling source file '/models/Apartment.cpp')
+  
+\models\ConferenceHall.cpp(1,1): error C1083: Cannot open source file: 'models\ConferenceHall.cpp': No such file or directory
+  (compiling source file '/models/ConferenceHall.cpp')
+  
+\models\DoubleRoom.cpp(1,1): error C1083: Cannot open source file: 'models\DoubleRoom.cpp': No such file or directory
+  (compiling source file '/models/DoubleRoom.cpp')
+  
+  Guest.cpp
+\models\Guest.cpp(1,1): error C1083: Cannot open source file: 'models\Guest.cpp': No such file or directory
+  (compiling source file '/models/Guest.cpp')
+  
+  LuxuryRoom.cpp
+\models\LuxuryRoom.cpp(1,1): error C1083: Cannot open source file: 'models\LuxuryRoom.cpp': No such file or directory
+  (compiling source file '/models/LuxuryRoom.cpp')
+  
+  Reservation.cpp
+\models\Reservation.cpp(1,1): error C1083: Cannot open source file: 'models\Reservation.cpp': No such file or directory
+  (compiling source file '/models/Reservation.cpp')
+  
+  Room.cpp
+\models\Room.cpp(1,1): error C1083: Cannot open source file: 'models\Room.cpp': No such file or directory
+  (compiling source file '/models/Room.cpp')
+  
+  SingleRoom.cpp
+\models\SingleRoom.cpp(1,1): error C1083: Cannot open source file: 'models\SingleRoom.cpp': No such file or directory
+  (compiling source file '/models/SingleRoom.cpp')
+  
+  User.cpp
+\models\User.cpp(1,1): error C1083: Cannot open source file: 'models\User.cpp': No such file or directory
+  (compiling source file '/models/User.cpp')
+  
+  MyString.cpp
+\MyString.cpp(1,1): error C1083: Cannot open source file: 'MyString.cpp': No such file or directory
+  (compiling source file '/MyString.cpp')
+  
+  MyVector.cpp
+\MyVector.cpp(1,1): error C1083: Cannot open source file: 'MyVector.cpp': No such file or directory
+  (compiling source file '/MyVector.cpp')
+  
+  ReservationManager.cpp
+\ReservationManager.cpp(1,1): error C1083: Cannot open source file: 'ReservationManager.cpp': No such file or directory
+  (compiling source file '/ReservationManager.cpp')
+  
+  RoomManager.cpp
+\RoomManager.cpp(1,1): error C1083: Cannot open source file: 'RoomManager.cpp': No such file or directory
+  (compiling source file '/RoomManager.cpp')
+  
+  main.cpp
+\src\main.cpp(1,1): error C1083: Cannot open source file: 'src\main.cpp': No such file or directory
+  (compiling source file '/src/main.cpp')
+  
+  FileManager.cpp
+\storage\FileManager.cpp(1,1): error C1083: Cannot open source file: 'storage\FileManager.cpp': No such file or directory
+  (compiling source file '/storage/FileManager.cpp')
+  
+  HotelSystem.cpp
+\system\HotelSystem.cpp(1,1): error C1083: Cannot open source file: 'system\HotelSystem.cpp': No such file or directory
+  (compiling source file '/system/HotelSystem.cpp')
+  
+  UserManager.cpp
+\UserManager.cpp(1,1): error C1083: Cannot open source file: 'UserManager.cpp': No such file or directory
+  (compiling source file '/UserManager.cpp')
+  
+  Generating Code...
