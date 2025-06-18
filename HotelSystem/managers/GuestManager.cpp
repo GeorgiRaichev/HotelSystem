@@ -71,3 +71,19 @@ void GuestManager::printAllGuests() const {
     for (int i = 0; i < guests.size(); ++i)
         guests[i].printInfo();
 }
+
+void GuestManager::loadGuest(int id, const char* name, const char* phone, const char* email, const char* type, int reservationCount) {
+    Guest g(id, name, phone, email, type);
+    for (int i = 0; i < reservationCount; ++i)
+        g.incrementReservations();
+    guests.push_back(g);
+}
+
+int GuestManager::size() const {
+    return guests.size();
+}
+
+const Guest& GuestManager::getAt(int index) const {
+    return guests[index];
+}
+

@@ -79,3 +79,18 @@ void ReservationManager::printAllReservations() const {
     for (int i = 0; i < reservations.size(); ++i)
         reservations[i].printInfo();
 }
+
+void ReservationManager::loadReservation(int id, int guestId, int roomId, const Date& from, const Date& to, double totalPrice) {
+    reservations.push_back(Reservation(id, guestId, roomId, from, to, totalPrice));
+    if (id >= nextId)
+        nextId = id + 1;
+}
+
+int ReservationManager::size() const {
+    return reservations.size();
+}
+
+const Reservation& ReservationManager::getAt(int index) const {
+    return reservations[index];
+}
+

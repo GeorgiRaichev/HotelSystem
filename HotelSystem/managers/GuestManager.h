@@ -16,4 +16,7 @@ public:
     Guest* findGuestById(int id);
     void incrementReservationCount(int id);
     void printAllGuests() const;
+    void loadGuest(int id, const char* name, const char* phone, const char* email, const char* type, int reservationCount);
+    int size() const;
+    const Guest& getAt(int index) const;
 };

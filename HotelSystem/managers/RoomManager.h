@@ -27,4 +27,6 @@ public:
     bool setRoomStatus(int roomId, const char* newStatus);
 
     int getNextId();
+    int size() const;
+    const Room* getAt(int index) const;
 };

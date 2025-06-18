@@ -97,3 +97,10 @@ bool RoomManager::setRoomStatus(int roomId, const char* newStatus) {
 int RoomManager::getNextId() {
     return nextId++;
 }
+int RoomManager::size() const {
+    return rooms.size();
+}
+
+const Room* RoomManager::getAt(int index) const {
+    return rooms[index];
+}
